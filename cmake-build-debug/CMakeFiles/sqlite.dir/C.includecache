@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/shaojiacheng/CLionProjects/sqlite/input_buffer.h
+
+/mnt/c/Users/shaojiacheng/CLionProjects/sqlite/main.c
+stdbool.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdint-gcc.h
+-
+input_buffer.h
+/mnt/c/Users/shaojiacheng/CLionProjects/sqlite/input_buffer.h
+row.c
+/mnt/c/Users/shaojiacheng/CLionProjects/sqlite/row.c
+
+/mnt/c/Users/shaojiacheng/CLionProjects/sqlite/row.c
+stdint-gcc.h
+-
+
