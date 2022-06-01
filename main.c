@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "input_buffer.h"
+#include "struct/input_buffer.h"
 #include "struct/row.h"
 
 typedef enum {
