@@ -2,9 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stdint-gcc.h>
 #include "input_buffer.h"
-#include "row.c"
+#include "row.h"
 
 typedef enum {
 	META_COMMAND_SUCCESS,
@@ -90,7 +89,6 @@ int main(int argc, char *argv[]) {
 			}
 		}
 		Statement statement;
-
 		//statement-representation
 		switch (prepare_statement(input_buffer, &statement)) {
 			case PREPARE_SUCCESS:
