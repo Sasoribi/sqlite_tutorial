@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "input_buffer.h"
-#include "row.h"
+#include "struct/row.h"
 
 typedef enum {
 	META_COMMAND_SUCCESS,

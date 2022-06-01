@@ -1,4 +1,7 @@
 #include <stdint-gcc.h>
+
+#ifndef SQLITE_TABLE_H
+#define SQLITE_PAGE_H
 #define COLUMN_USERNAME_SIZE 32
 #define COLUMN_EMAIL_SIZE 255
 //get struct attribute size
@@ -33,3 +36,5 @@ void serialize_row(Row* source,void* destination);
  * @param destination
  */
 void deserialize_row(void* source,Row* destination);
+
+#endif
